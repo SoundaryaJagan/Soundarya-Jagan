@@ -5,7 +5,7 @@ r=n%10
 sum+=r*r
 n//=10
 return sum
-def happy(n)
+def happy(n):
 while(n>0):
 n=sumdigsqr(n)
 if n==1:
